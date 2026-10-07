@@ -7,7 +7,7 @@ Bearbeitung: **Luca Jenewein**.
 ## Projektstruktur
 
 ```
-Data_Engenering/
+Foundations_of_Data_Engineering_and_Analytics/
 ├── 01/                       # Sheet 1 – Datasets
 │   ├── sheet01.ipynb         # Lösung (Ex 1–3)
 │   ├── sheet01.html          # Export für OLAT (interaktive Plotly-Grafiken)
