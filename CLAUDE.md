@@ -102,3 +102,26 @@ Practical implication for how to help here: **favor clarity and learning over cl
 straightforward, well-commented, idiomatic solutions that Luca can read, follow, and defend. Explain
 the reasoning and the choices (why this library, why this approach), not just the code. Avoid opaque
 one-liners or advanced tricks that would be hard to explain in a live tutorial.
+
+## KISS — keep it simple, student-level code
+
+Every solution must look like something a student in this course could have written on their own.
+Basic, readable code beats elegant or "production-grade" code. Concretely:
+
+- **One step per cell.** Short cells that each do one thing (load, clean, aggregate, plot), with a
+  short markdown sentence before them explaining what and why.
+- **Basic pandas only:** `read_csv`, column selection, boolean filtering (`df[df["x"] > 0]`),
+  `groupby(...).mean()/sum()/count()`, `merge`, `melt`, `sort_values`, `value_counts`, `describe`.
+  Use intermediate variables with clear names instead of long method chains (max ~3 chained calls).
+- **No custom functions or classes** unless the same code would otherwise be copy-pasted 3+ times —
+  and then a small plain function, no type hints, no docstring essays.
+- **No "engineering" overhead:** no try/except, input validation, logging, config dicts, CLI args,
+  decorators, generators, `lambda`/`apply` chains, nested comprehensions, regex or `numpy` tricks
+  unless the exercise genuinely needs them.
+- **Plots:** prefer `plotly.express` (one call per chart). Use `plotly.graph_objects` only where
+  express can't do it (e.g. a dropdown dashboard), and keep that code straightforward.
+- **Comments:** short, German, explain *why* — not a line-by-line narration of the code.
+- **Prose:** written in a natural student voice; answer the question asked, no polished
+  report-style padding.
+- When in doubt, choose the version Luca could re-type from memory and explain in the tutorial.
+  Sheet 1 is the upper bound for complexity, not the baseline.

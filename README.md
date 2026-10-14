@@ -6,7 +6,7 @@ Bearbeitung: **Luca Jenewein**.
 
 ## Projektstruktur
 
-```
+```text
 Foundations_of_Data_Engineering_and_Analytics/
 ├── 01/                       # Sheet 1 – Datasets
 │   ├── sheet01.ipynb         # Lösung (Ex 1–3)
@@ -14,6 +14,11 @@ Foundations_of_Data_Engineering_and_Analytics/
 │   ├── sheet01.pdf           # Angabe
 │   └── data/
 │       └── radverkehrszaehlungen_wien.csv   # Datensatz (lokal, offline-reproduzierbar)
+├── 02/                       # Sheet 2 – <Thema>
+│   ├── sheet02.ipynb         # Lösung
+│   ├── sheet02.html          # Export für OLAT
+│   ├── sheet02.pdf           # Angabe
+│   └── data/                 # Datensätze
 ├── VO-Folien/                # Vorlesungsfolien (DEA-NN-<Thema>.pdf)
 ├── pyproject.toml            # Abhängigkeiten
 ├── uv.lock                   # exakte, gepinnte Paketversionen
