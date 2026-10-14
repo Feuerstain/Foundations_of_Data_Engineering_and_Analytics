@@ -103,10 +103,11 @@ straightforward, well-commented, idiomatic solutions that Luca can read, follow,
 the reasoning and the choices (why this library, why this approach), not just the code. Avoid opaque
 one-liners or advanced tricks that would be hard to explain in a live tutorial.
 
-## KISS — keep it simple, student-level code
+## KISS — keep it simple, student level (code AND text)
 
-Every solution must look like something a student in this course could have written on their own.
-Basic, readable code beats elegant or "production-grade" code. Concretely:
+Every solution — code and written answers alike — must look like something a student in this
+course could have written on their own. Basic, readable work beats elegant or "production-grade"
+work. Concretely:
 
 - **One step per cell.** Short cells that each do one thing (load, clean, aggregate, plot), with a
   short markdown sentence before them explaining what and why.
@@ -121,7 +122,20 @@ Basic, readable code beats elegant or "production-grade" code. Concretely:
 - **Plots:** prefer `plotly.express` (one call per chart). Use `plotly.graph_objects` only where
   express can't do it (e.g. a dropdown dashboard), and keep that code straightforward.
 - **Comments:** short, German, explain *why* — not a line-by-line narration of the code.
-- **Prose:** written in a natural student voice; answer the question asked, no polished
-  report-style padding.
+- **Prose / written exercises** (reflections, discussions, case studies): natural student voice,
+  short sentences, flat bullet lists (no nested lists), few technical terms beyond those from the
+  lecture or the assigned paper. Answer exactly what is asked — no research-paper depth, no
+  report-style padding. A structure like *Problem → Lösung → Bleibt* per point is enough. As a rough
+  guide, a whole 5-point written exercise fits in ~600–800 words.
 - When in doubt, choose the version Luca could re-type from memory and explain in the tutorial.
   Sheet 1 is the upper bound for complexity, not the baseline.
+
+## Ask instead of guessing
+
+If anything is unclear — what an exercise expects, which topic/dataset/approach Luca wants, how
+detailed an answer should be, or a decision that is really Luca's to make — **ask first** (use
+`AskUserQuestion` with concrete options, so Luca can answer quickly) instead of picking something
+and writing it all out. This matters most for open/creative parts (e.g. choosing a study topic or
+research question): build those together through questions, using Luca's own answers and ideas,
+so the result is something Luca can explain and defend. Don't ask about things that have an obvious
+default or can be checked in the repo, the slides or the assignment PDF.

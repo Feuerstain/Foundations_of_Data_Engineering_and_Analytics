@@ -14,11 +14,11 @@ Foundations_of_Data_Engineering_and_Analytics/
 │   ├── sheet01.pdf           # Angabe
 │   └── data/
 │       └── radverkehrszaehlungen_wien.csv   # Datensatz (lokal, offline-reproduzierbar)
-├── 02/                       # Sheet 2 – <Thema>
+├── 02/                       # Sheet 2 – Data Preparation & Data Quality
 │   ├── sheet02.ipynb         # Lösung
 │   ├── sheet02.html          # Export für OLAT
 │   ├── sheet02.pdf           # Angabe
-│   └── data/                 # Datensätze
+│   └── data/spotify_modified.json   # Datensatz (aus OLAT)
 ├── VO-Folien/                # Vorlesungsfolien (DEA-NN-<Thema>.pdf)
 ├── pyproject.toml            # Abhängigkeiten
 ├── uv.lock                   # exakte, gepinnte Paketversionen
