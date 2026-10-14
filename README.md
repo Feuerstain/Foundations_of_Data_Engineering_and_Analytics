@@ -14,6 +14,7 @@ Foundations_of_Data_Engineering_and_Analytics/
 │   ├── sheet01.pdf           # Angabe
 │   └── data/
 │       └── radverkehrszaehlungen_wien.csv   # Datensatz (lokal, offline-reproduzierbar)
+├── VO-Folien/                # Vorlesungsfolien (DEA-NN-<Thema>.pdf)
 ├── pyproject.toml            # Abhängigkeiten
 ├── uv.lock                   # exakte, gepinnte Paketversionen
 ├── .python-version           # Python-Version des Projekts

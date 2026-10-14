@@ -21,6 +21,9 @@ One directory per sheet (`01/`, `02/`, …), one uv environment at the repo root
   must be executed with the sheet directory as CWD (Jupyter and nbconvert both do this).
 - `README.md` (German) holds the setup instructions, version table, project tree and the
   per-sheet submission checklist. Update its tree and version table when adding a sheet or a dependency.
+- `VO-Folien/DEA-NN-<Topic>.pdf` — the lecture slides (e.g. `DEA-03-DataAnalysis-PreparationAndCleaning.pdf`).
+  Before solving a sheet, check the slides for the matching topic and use the methods and
+  terminology taught there, so the solution fits what the tutors expect and can be defended.
 
 Notebook conventions:
 
