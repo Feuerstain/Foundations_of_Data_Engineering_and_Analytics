@@ -1,0 +1,161 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: 
+
+
+BO_ 352 amk_fl_actual_values_1: 8 Vector__XXX
+ SG_ magnetizing_current : 48|16@1- (0.006409,0) [-210.01|210.004] "A" Vector__XXX
+ SG_ torque_current : 32|16@1- (0.006409,0) [-210.01|210.004] "A" Vector__XXX
+ SG_ actual_velocity : 16|16@1- (1,0) [-32768|32767] "U/min" Vector__XXX
+ SG_ derating : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ inverter_on : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ quit_inverter_on : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ dc_on : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ quit_dc_on : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ warn : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ error : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ system_ready : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 353 amk_fr_actual_values_1: 8 Vector__XXX
+ SG_ magnetizing_current : 48|16@1- (0.006409,0) [-210.01|210.004] "A" Vector__XXX
+ SG_ torque_current : 32|16@1- (0.006409,0) [-210.01|210.004] "A" Vector__XXX
+ SG_ actual_velocity : 16|16@1- (1,0) [-32768|32767] "U/min" Vector__XXX
+ SG_ derating : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ inverter_on : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ quit_inverter_on : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ dc_on : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ quit_dc_on : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ warn : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ error : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ system_ready : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 355 amk_rl_actual_values_1: 8 Vector__XXX
+ SG_ magnetizing_current : 48|16@1- (0.006409,0) [-210.01|210.004] "A" Vector__XXX
+ SG_ torque_current : 32|16@1- (0.006409,0) [-210.01|210.004] "A" Vector__XXX
+ SG_ actual_velocity : 16|16@1- (1,0) [-32768|32767] "U/min" Vector__XXX
+ SG_ derating : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ inverter_on : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ quit_inverter_on : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ dc_on : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ quit_dc_on : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ warn : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ error : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ system_ready : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 354 amk_rr_actual_values_1: 8 Vector__XXX
+ SG_ magnetizing_current : 48|16@1- (0.006409,0) [-210.01|210.004] "A" Vector__XXX
+ SG_ torque_current : 32|16@1- (0.006409,0) [-210.01|210.004] "A" Vector__XXX
+ SG_ actual_velocity : 16|16@1- (1,0) [-32768|32767] "U/min" Vector__XXX
+ SG_ derating : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ inverter_on : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ quit_inverter_on : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ dc_on : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ quit_dc_on : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ warn : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ error : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ system_ready : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 256 pedals: 5 Vector__XXX
+ SG_ accel1_uf : 32|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ accel1_of : 33|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ accel2_uf : 34|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ accel2_of : 35|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ regen2_uf : 36|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ regen2_of : 37|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ regen1_uf : 38|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ regen1_of : 39|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ brake_uf : 24|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ brake_of : 25|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ regen_zero : 28|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ regen_slope : 29|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ regen_loadcell : 30|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ accel_disagree : 31|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ regen : 23|8@0+ (1,0) [0|100] "%" Vector__XXX
+ SG_ brake : 15|8@0+ (1,0) [0|100] "%" Vector__XXX
+ SG_ accel : 7|8@0+ (1,0) [0|100] "%" Vector__XXX
+
+BO_ 560 vcu_front_status: 5 Vector__XXX
+ SG_ steering_speed : 39|8@0- (4,0) [-512|508] "°/s" Vector__XXX
+ SG_ steering_angle : 23|16@0- (0.004577776421399579,0) [-150|150] "°" Vector__XXX
+ SG_ fan_controller_error : 13|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ motor2_fan_oc : 14|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ motor1_fan_oc : 15|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ req_brake : 1|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ button_ts_on_pressed : 2|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ button_rtd_pressed : 3|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ rtd : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ready : 5|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ rtd_buzzer : 6|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ams_ts_on : 7|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 496 isa_current: 6 Vector__XXX
+ SG_ value : 23|32@0- (0.001,0) [-2147480.0|2147480.0] "A" Vector__XXX
+ SG_ byte1 : 15|8@0+ (1,0) [0|256] "" Vector__XXX
+ SG_ byte0 : 7|8@0+ (1,0) [0|256] "" Vector__XXX
+
+BO_ 497 isa_ubat: 6 Vector__XXX
+ SG_ value : 23|32@0- (0.001,0) [-2147480.0|2147480.0] "V" Vector__XXX
+ SG_ byte1 : 15|8@0+ (1,0) [0|256] "" Vector__XXX
+ SG_ byte0 : 7|8@0+ (1,0) [0|256] "" Vector__XXX
+
+BO_ 501 isa_power: 6 Vector__XXX
+ SG_ value : 23|32@0- (1,0) [-2147480000.0|2147480000.0] "W" Vector__XXX
+ SG_ byte1 : 15|8@0+ (1,0) [0|256] "" Vector__XXX
+ SG_ byte0 : 7|8@0+ (1,0) [0|256] "" Vector__XXX
+
+BO_ 544 ams_ts_on_state: 7 Vector__XXX
+ SG_ max_temp : 47|16@0+ (0.001,0) [0|65.535] "deg C" Vector__XXX
+ SG_ max_cv : 31|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ min_cv : 15|16@0+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ sdc_ready : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ precharge_done : 1|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ tsal_green : 2|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ tson_flag : 3|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ uc_airn : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ uc_airp : 5|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ uc_precharge : 6|1@0+ (1,0) [0|1] "" Vector__XXX
+
+
+
+
+
+
+
+
+
+
+
+

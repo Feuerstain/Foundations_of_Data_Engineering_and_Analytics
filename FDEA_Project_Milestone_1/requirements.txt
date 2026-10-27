@@ -1,0 +1,8 @@
+# Python 3.12; the notebooks were run with exactly these versions.
+cantools==45.0.0
+pandas==3.0.6
+numpy==2.5.4
+matplotlib==3.11.2
+jupyterlab==4.6.4
+nbconvert==7.17.2
+ipykernel==7.4.0
