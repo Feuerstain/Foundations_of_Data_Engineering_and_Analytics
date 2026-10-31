@@ -19,6 +19,13 @@ Foundations_of_Data_Engineering_and_Analytics/
 │   ├── sheet02.html          # Export für OLAT
 │   ├── sheet02.pdf           # Angabe
 │   └── data/spotify_modified.json   # Datensatz (aus OLAT)
+├── 03/                       # Sheet 3 – Web Crawling & Univariate EDA
+│   ├── sheet03.ipynb         # Übungsversion: Ex 2 mit Aufgabe/Tipp, Lösung auskommentiert
+│   ├── sheet03_abgabe.ipynb  # fertige Lösung (Abgabe)
+│   ├── sheet03_abgabe.html   # Export für OLAT
+│   ├── sheet03.pdf           # Angabe
+│   ├── crawler.py            # Playwright-Crawler für DevHire Europe
+│   └── data/                 # Rohdaten (jobs_raw.jsonl) + bereinigt (jobs_2026.csv, job_technologies.csv)
 ├── VO-Folien/                # Vorlesungsfolien (DEA-NN-<Thema>.pdf)
 ├── pyproject.toml            # Abhängigkeiten
 ├── uv.lock                   # exakte, gepinnte Paketversionen
@@ -66,6 +73,12 @@ uv run jupyter nbconvert --to pdf  01/sheet01.ipynb   # statische PDF-Variante
 | plotly     | 7.1.0   |
 | jupyterlab | 4.6.4   |
 | ipywidgets | 8.1.9   |
+| scipy      | 1.18.1  |
+| playwright | 1.64.1  |
+
+Für den Crawler aus Sheet 3 braucht Playwright zusätzlich einen Browser:
+`uv run playwright install chromium`. Das Notebook selbst läuft auch ohne,
+weil die gecrawlten Daten in `03/data/` liegen.
 
 (Verbindlich sind die in `uv.lock` gepinnten Versionen; `pyproject.toml` listet
 die direkten Abhängigkeiten.)

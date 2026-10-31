@@ -8,5 +8,7 @@ dependencies = [
     "kaleido>=1.5.0",
     "nbformat>=5.11.1",
     "pandas>=3.0.6",
+    "playwright>=1.64.1",
     "plotly>=7.1.0",
+    "scipy>=1.18.1",
 ]
