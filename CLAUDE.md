@@ -105,6 +105,10 @@ one-liners or advanced tricks that would be hard to explain in a live tutorial.
 
 ## KISS — keep it simple, student level (code AND text)
 
+**Do no more than what was asked. Basics before the rest.** Do the requested task with the simplest
+approach that works, then stop. No extra features, analyses, files, refactors or side fixes unless
+Luca asks for them; if something else seems useful, mention it in one sentence instead of doing it.
+
 Every solution — code and written answers alike — must look like something a student in this
 course could have written on their own. Basic, readable work beats elegant or "production-grade"
 work. Concretely:
