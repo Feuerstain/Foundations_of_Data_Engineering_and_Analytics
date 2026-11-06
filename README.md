@@ -26,6 +26,12 @@ Foundations_of_Data_Engineering_and_Analytics/
 │   ├── sheet03.pdf           # Angabe
 │   ├── crawler.py            # Playwright-Crawler für DevHire Europe
 │   └── data/                 # Rohdaten (jobs_raw.jsonl) + bereinigt (jobs_2026.csv, job_technologies.csv)
+├── 04/                       # Sheet 4 – Multivariate EDA & Dataset Comparison
+│   ├── sheet04.ipynb         # Übungsversion: Aufgabe/Tipp, Lösung auskommentiert
+│   ├── sheet04_abgabe.ipynb  # fertige Lösung (Abgabe)
+│   ├── sheet04_abgabe.html   # Export für OLAT
+│   ├── sheet04.pdf           # Angabe
+│   └── data/                 # kanonische Daten + Datasheet (OLAT), Crawl aus Sheet 3
 ├── VO-Folien/                # Vorlesungsfolien (DEA-NN-<Thema>.pdf)
 ├── pyproject.toml            # Abhängigkeiten
 ├── uv.lock                   # exakte, gepinnte Paketversionen
