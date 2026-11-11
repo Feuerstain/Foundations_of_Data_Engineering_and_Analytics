@@ -125,6 +125,9 @@ work. Concretely:
   unless the exercise genuinely needs them.
 - **Plots:** prefer `plotly.express` (one call per chart). Use `plotly.graph_objects` only where
   express can't do it (e.g. a dropdown dashboard), and keep that code straightforward.
+- **Less is more — don't inflate.** One meaningful chart/table/example that answers the question
+  beats three that each show a bit. Don't add extra plots, variants, statistics or paragraphs "for
+  completeness". Exception: the exercise (or Luca) explicitly asks for several.
 - **Comments:** short, German, explain *why* — not a line-by-line narration of the code.
 - **Prose / written exercises** (reflections, discussions, case studies): natural student voice,
   short sentences, flat bullet lists (no nested lists), few technical terms beyond those from the
