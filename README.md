@@ -32,6 +32,12 @@ Foundations_of_Data_Engineering_and_Analytics/
 │   ├── sheet04_abgabe.html   # Export für OLAT
 │   ├── sheet04.pdf           # Angabe
 │   └── data/                 # kanonische Daten + Datasheet (OLAT), Crawl aus Sheet 3
+├── 05/                       # Sheet 5 – Text Representation (N-Gramme, TF-IDF, Suche)
+│   ├── sheet05.ipynb         # Übungsversion: Aufgabe/Tipp, Lösung auskommentiert
+│   ├── sheet05_abgabe.ipynb  # fertige Lösung (Abgabe)
+│   ├── sheet05_abgabe.html   # Export für OLAT
+│   ├── sheet05.pdf           # Angabe
+│   └── data/20news-bydate_py3.pkz   # 20 Newsgroups (Cache von scikit-learn, läuft offline)
 ├── VO-Folien/                # Vorlesungsfolien (DEA-NN-<Thema>.pdf)
 ├── pyproject.toml            # Abhängigkeiten
 ├── uv.lock                   # exakte, gepinnte Paketversionen
@@ -81,6 +87,8 @@ uv run jupyter nbconvert --to pdf  01/sheet01.ipynb   # statische PDF-Variante
 | ipywidgets | 8.1.9   |
 | scipy      | 1.18.1  |
 | playwright | 1.64.1  |
+| scikit-learn | 1.9.1 |
+| nltk       | 3.10.4  |
 
 Für den Crawler aus Sheet 3 braucht Playwright zusätzlich einen Browser:
 `uv run playwright install chromium`. Das Notebook selbst läuft auch ohne,
